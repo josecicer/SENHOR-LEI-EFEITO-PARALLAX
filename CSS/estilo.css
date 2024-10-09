@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka',sans-serif;
+}
+
+/*estilização das tags universais*/
+h1{
+    font-size: 28px;
+
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 22px;
+}
+p,li{
+    font-size: 18px;
+}
+p{
+    margin: 16px 0;
+    line-height: 22px;
+    text-align: justify;
+}
+
+/*seção topo*/
+.secao-topo{
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.largura-definitiva{
+    width: 800px;
+    min-width: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.secao-conteudo{
+    padding: 50px 20px;
+}
+
+.paragrafo-topo{
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/*primeira seção com background-image*/
+.background-marleto{
+    height: 500px;
+    min-height: 200px;
+    background-image: url(../IMG/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+
+/*estilização das seções de conteudo*/
+.img-largura{
+    width: 250px;
+    height: 180px;
+}
+
+.span-borda{
+    border-left: 1px solid #000000;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+/*estilização das seções 4 e 6*/
+.secao-background{
+    background-image: url('../IMG/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.secao-background .largura-definitiva h2{
+    width: 200px;
+    min-width: 50px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 36px;
+}
+
+.secao-conteudo a{
+    text-decoration: none;
+}
+
